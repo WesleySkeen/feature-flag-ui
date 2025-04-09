@@ -1,4 +1,4 @@
-import loading_spinner from './assets/loading-spinner.svg'
+import loading_spinner from '../assets/loading-spinner.svg'
 import './App.css'
 
 function App() {
