@@ -9,6 +9,8 @@ function App() {
             <h1>Loading Feature Flags</h1>
         </>
     )
+
+
 }
 
 export default App

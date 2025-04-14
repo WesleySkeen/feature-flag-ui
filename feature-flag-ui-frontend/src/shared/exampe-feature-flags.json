@@ -1,0 +1,36 @@
+[
+  {
+    "id": "feature-123",
+    "name": "New Dashboard",
+    "description": "Enables the new dashboard for users.",
+    "isEnabled": true,
+    "triggers": [
+      {
+        "id": "trigger-1",
+        "types": [
+          "CompanyId"
+        ],
+        "isEnabled": true,
+        "createdAt": "2023-10-01T12:00:00Z",
+        "updatedAt": "2023-10-05T12:00:00Z",
+        "companyIds": [
+          101,
+          102,
+          103
+        ]
+      },
+      {
+        "id": "trigger-2",
+        "types": [
+          "Percentage"
+        ],
+        "isEnabled": false,
+        "createdAt": "2023-09-15T08:00:00Z",
+        "updatedAt": "2023-09-20T08:00:00Z",
+        "percentage": 50
+      }
+    ],
+    "createdAt": "2023-09-01T10:00:00Z",
+    "updatedAt": "2023-10-01T10:00:00Z"
+  }
+]
