@@ -1,12 +1,11 @@
 .side-nav {
     width: 200px;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #F8F8F8;
     position: fixed;
     top: 0;
     left: 0;
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .side-nav ul {
@@ -15,15 +14,26 @@
 }
 
 .side-nav li {
+    display: flex;
+    align-items: center;
     margin: 20px 0;
+}
+
+.side-nav .icon {
+    margin-right: 10px;
+    color: #C0C0C0;
+}
+
+.side-nav .icon:hover {
+    color: #A9A9A9;
 }
 
 .side-nav a {
     text-decoration: none;
-    color: #333;
+    color: #C0C0C0;
     font-weight: bold;
 }
 
 .side-nav a:hover {
-    color: #007bff;
+    color: #A9A9A9;
 }

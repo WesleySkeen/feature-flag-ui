@@ -1,13 +1,16 @@
 import { Link } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
 import './SideNav.css';
 
 function SideNav() {
     return (
         <nav className="side-nav">
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/feature-flags">Feature Flags</Link></li>
-                <li><Link to="/settings">Settings</Link></li>
+                <li>
+                    <i className="fas fa-flag icon"></i>
+                    <Link to="/feature-flags" >Feature Flags</Link>
+                </li>
             </ul>
         </nav>
     );
